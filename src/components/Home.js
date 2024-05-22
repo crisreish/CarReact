@@ -1,5 +1,5 @@
-import React from 'react';
-import { Carousel } from 'react-bootstrap';
+import React from "react";
+import { Carousel } from "react-bootstrap";
 
 const Home = () => {
   return (
@@ -13,7 +13,11 @@ const Home = () => {
           />
           <Carousel.Caption>
             <h3>Renault Zoe e-tech Elétrico</h3>
-            <p>Alguma descrição do primeiro slide.</p>
+            <p>
+              SUV elétrico compacto, oferece bastante espaço para os ocupantes.
+              células da bateria do novo SUV elétrico. Células da bateria que
+              elimina o nível de ruído do módulo.
+            </p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -24,7 +28,11 @@ const Home = () => {
           />
           <Carousel.Caption>
             <h3>Toyota Yaris 2023</h3>
-            <p>Alguma descrição do segundo slide.</p>
+            <p>
+              Picape compacta monobloco, conjunto ótico full LED e rodas
+              diamantadas de até 19 polegadas. Oferece um espaço de caçamba
+              generoso, com capacidade para 935 litros.
+            </p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -34,8 +42,12 @@ const Home = () => {
             alt="Terceiro slide"
           />
           <Carousel.Caption>
-            <h3>BMW M3 Laranja 2025</h3>
-            <p>Alguma descrição do terceiro slide.</p>
+            <h3>GWM Ora 03 2024</h3>
+            <p>
+              Farol alto automático, que reduz o facho do farol quando detecta
+              veículo no sentido oposto. Retrovisores externos com setas,
+              rebatimento elétrico e aquecimento.
+            </p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
